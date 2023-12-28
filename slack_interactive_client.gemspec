@@ -14,6 +14,13 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['lib/**/*'] + Dir['spec/**/*']
 
+  s.metadata = {
+    "bug_tracker_uri"   => "https://github.com/micahbowie/slack_interactive_client/issues",
+    "changelog_uri"     => "https://github.com/micahbowie/slack_interactive_client/CHANGELOG.md",
+    "documentation_uri" => "https://github.com/micahbowie/slack_interactive_client",
+    "source_code_uri"   => "https://github.com/micahbowie/slack_interactive_client",
+  }
+
   spec.required_ruby_version = ">= 2.7.0"
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
