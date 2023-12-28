@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+require 'active_support'
+require 'active_support/all'
+
+require_relative "slack_interactive_client/configuration"
+require_relative "slack_interactive_client/message_stop_guard"
+require_relative "slack_interactive_client/client"
+require_relative "slack_interactive_client/message/compilation"
+require_relative "slack_interactive_client/message"
+require_relative "slack_interactive_client/bot"
+require_relative "slack_interactive_client/railtie"
+require_relative "slack_interactive_client/response_client"
+require_relative "slack_interactive_client/interactions/unknown_command_interaction"
+require_relative "slack_interactive_client/base_interaction"
+require_relative "slack_interactive_client/engine"
