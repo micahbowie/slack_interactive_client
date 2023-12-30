@@ -15,3 +15,5 @@
 Gemfile.lock
 
 scratch.rb
+
+*.gem
